@@ -1,6 +1,5 @@
 import os
 import sys
-#sys.path.append('.')
 import yaml
 import json
 from tqdm import tqdm
