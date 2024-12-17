@@ -1,0 +1,22 @@
+huggingface:
+  dataset_name: wikimedia/wikipedia
+  train_split: train
+  shard : 20220301.en
+  file_name : english_wikipedia.csv
+  save_directory_path : wikipedia
+  dataset_size : 10000
+openai:
+  max_tokens: 1000
+  model_name: gpt-4o-mini
+  embedding_model : text-embedding-3-large
+pinecone:
+  index_name : wikipedia
+  dimension : 1024
+  cloud : aws
+  region : us-east-1
+cohere:
+  ranking_model : rerank-v3.5  
+sentence_transformer:
+  max_sequence_length: 512
+  model_name: BAAI/bge-large-en-v1.5
+  model_path: BAAI_bge-large-en-v1.5
