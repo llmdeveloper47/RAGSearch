@@ -1,7 +1,7 @@
 ### INSTRUCTION : Running the Search CLI (locally)
 To test the application locally, we follow the below steps:
-Step1 - cd into src folder, 
-Step2 - run '''python3 search_cli.py''' which will then initialize the Pinecone client to connect to the vector database for retrieval,Cohere client for reranking of retrieved documents and OpenAI for generation of the final answer
+ - Step1 - cd into src folder, 
+ - Step2 - run '''python3 search_cli.py''' which will then initialize the Pinecone client to connect to the vector database for retrieval,Cohere client for reranking of retrieved documents and OpenAI for generation of the final answer
 
 #### NOTE : For the purpose of testing this application, I have generated temporary API keys for OpenAI, Cohere and Pinecone.
 
